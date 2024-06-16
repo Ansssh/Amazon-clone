@@ -154,4 +154,66 @@ input{
     border: 1px solid white;
 }
 
+/* Panel completed now, moving ahead */
+
+.hero-section{
+    background-image: url("media/Hero-Section.jpg");
+    height: 12rem;
+    background-size: cover;
+    
+}
+.message{
+    background-color: rgb(215, 237, 250);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 1rem;
+    color: rgb(9, 21, 38);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.message a{
+    color: #007185;
+}
+
+.shop{
+    position: relative;
+    height: 20rem;
+    border: 3px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* background-image: url("media/Hero-Section.jpg"); */
+    background-position: top;
+    overflow: hidden;
+}
+
+.box{
+    display: inline-flex;
+    margin: 1rem;
+    height: 4rem;
+    width: 4rem;
+    border: 3px solid black;
+    top: 10px;
+    position: relative;
+    top: -35rem;
+    z-index: 3;
+
+}
+
+.shop img{
+    display: inline-flex;
+    z-index: -1;
+    position: relative;
+    /* height: 100%; */
+    width: 100%;
+    object-fit: contain;
+    filter: blur(10px);
+}
+
+
+
+
+
+
 
