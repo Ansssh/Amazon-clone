@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 .nav-logo{
     height: 40px;
@@ -126,6 +127,8 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
 
 }
 
@@ -174,46 +177,102 @@ input{
     
 }
 .message a{
+    overflow: hidden;
     color: #007185;
 }
 
+/* Shop Section */
+
 .shop{
-    position: relative;
-    height: 20rem;
-    border: 3px solid black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    /* background-image: url("media/Hero-Section.jpg"); */
-    background-position: top;
-    overflow: hidden;
+    height: fit-content;
+    width: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 1rem 1rem 1rem;
+    background-color: lightgray;
+    flex-wrap: wrap;
 }
 
-.box{
-    display: inline-flex;
-    margin: 1rem;
-    height: 4rem;
-    width: 4rem;
-    border: 3px solid black;
-    top: 10px;
-    position: relative;
-    top: -35rem;
-    z-index: 3;
-
+.shop-box{
+    height: 25rem;
+    width: 23%;
+    border: 1px solid black;
+    margin: 1.2rem 0 1.2rem;
+    background-color: white;
+    display: flex;
 }
 
-.shop img{
-    display: inline-flex;
-    z-index: -1;
-    position: relative;
-    /* height: 100%; */
-    width: 100%;
-    object-fit: contain;
-    filter: blur(10px);
+.shop-content{
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    /* border: 2px solid black; */
+    /* overflow: hidden; */
 }
 
-
-
-
-
-
-
+.s1{
+    background-image: url("media/box1.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s2{
+    background-image: url("media/box2.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s3{
+    background-image: url("media/box3.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s4{
+    background-image: url("media/box4.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s5{
+    background-image: url("media/box5.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s6{
+    background-image: url("media/box6.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s7{
+    background-image: url("media/box7.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
+.s8{
+    background-image: url("media/box8.webp");
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 0;
+}
