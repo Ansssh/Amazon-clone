@@ -188,7 +188,7 @@ input{
     width: auto;
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0 1rem 1rem 1rem;
     background-color: lightgray;
@@ -275,4 +275,76 @@ input{
     background-position: center;
     background-repeat: no-repeat;
     margin: 10px 0 10px 0;
+}
+/* Working on footer */
+
+.back-to-top{
+    height: fit-content;
+    width: auto;
+    margin: 1rem 1rem 0 1rem;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.back-to-top:hover{
+    background-color: #485769;
+
+}
+
+.amazon-foots{
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    height:fit-content;
+    width: auto;
+    margin: 0 1rem 0 1rem;
+    justify-content: space-evenly;
+    padding: 3rem 0 3rem 0;
+}
+ul a{
+    display: block;
+    padding-top: 0.7rem;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+
+ul p{
+    font-weight: bold;
+    
+}
+
+
+.conn-tex{
+    color: white;
+    background-color: #232f3e;
+    border-top: 0.3px solid lightgrey;
+    height: fit-content;
+    width: auto;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.connect{
+    color: white;
+    background-color: #232f3e;
+    height: fit-content;
+    width: auto;
+    margin: 0 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 35% 2rem 35%;
+}
+
+.tele i,.ig i,.x i,.linkedin i,.git-hub i, .discord i{
+    font-size: 150%;
+    color: white;
 }
